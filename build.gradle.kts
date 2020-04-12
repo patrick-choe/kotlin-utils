@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
     compileOnly(kotlin("stdlib-jdk8"))
-    compileOnly("org.apache.commons:commons-lang3:3.1")
+    compileOnly("org.apache.commons:commons-lang3:3.10")
 }
 
 tasks {
