@@ -2,11 +2,12 @@ plugins {
     `maven-publish`
     signing
     kotlin("jvm") version "1.3.71"
+    java
     id("org.jetbrains.dokka") version "0.10.0"
 }
 
 group = "com.github.patrick-mc"
-version = "0.2-beta"
+version = "0.3-beta"
 
 repositories {
     maven("https://repo.maven.apache.org/maven2/")
@@ -19,10 +20,6 @@ dependencies {
 }
 
 tasks {
-    compileKotlin {
-        kotlinOptions.jvmTarget = "1.8"
-    }
-
     dokka {
         outputFormat = "javadoc"
         outputDirectory = "$buildDir/dokka"

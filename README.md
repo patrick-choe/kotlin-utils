@@ -32,7 +32,7 @@
 >
 >...
 >dependencies {
->    implementation 'com.github.patrick-mc:kotlin-utils:0.2-beta'
+>    implementation 'com.github.patrick-mc:kotlin-utils:0.3-beta'
 >}
 >```
 > ---
@@ -47,6 +47,6 @@
 >
 >...
 >dependencies {
->    implementation("com.github.patrick-mc:kotlin-utils:0.2-beta")
+>    implementation("com.github.patrick-mc:kotlin-utils:0.3-beta")
 >}
 >```
